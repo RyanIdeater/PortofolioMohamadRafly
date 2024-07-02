@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <img src="/assets/RYAN’S.png" class="logo" />
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <img src="/assets/RYAN’S.png" class="logo" />
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/RYAN’S (1).png" alt="Mohamad Rafly" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, i'm</p>
+        <h1 class="title_1">Mohamad</h1>
+        <h1 class="title">Rafly Fajriansyah</h1>
+        <p class="section__text__p2">Designer/Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="window.open('./assets/CV_MohamadRafly.pdf')" href="/assets/CV_MohamadRafly.pdf" title="Read PDF">Download CV</button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'" href="/assets/CV_MohamadRafly.pdf" title="Read PDF">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/raflyfajriansyah/'" />
+          <img src="./assets/github.png" alt="My github" class="icon" onclick="location.href='https://github.com/RyanIdeater'" />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1_4">Get to know more</p>
+      <h1 class="title_2">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <div class="card">
+                <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                <h3>Experience</h3>
+                <p>1 Year <br />UI/UX Designer</p>
+                <br />
+              </div>
+            </div>
+
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>Bachelor's degree in Computer Science<br /><br />Universitas Komputer Indonesia</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a graduate with a Bachelor's degree in Computer Science from the Indonesian Computer University with a keen interest in learning new things. I am honest, patient, diligent, and hardworking. My experience spans web design,
+              mobile application design, logo design, poster design, and vector design. Additionally, I am proficient in programming languages such as C#, Java, JavaScript, HTML, CSS, PHP, Python, React JS, and Laravel. Combining my design
+              and programming skills, I focus on roles such as a UI/UX designer, where I design user-friendly interfaces and experiences, or a front-end developer, where I enhance the visual appeal of websites and applications.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Developer</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Designer</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Adobe Photoshop</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Adobe Illustrator</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Canva</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container2">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/195359653/My-Internship-UIUX-Portofolio'">Behance</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container2">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/175926341/Classhub-App-Design-StudyCase'">Behance</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container2">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/174447571/FundEx-Mobile-Website-Redesign-X-Rakamin-VIX-Program'">Behance</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1_2">Get in Touch</p>
+      <h1 class="title_2">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:raflyzxd@gmail.com">raflyzxd@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/whatsapp.png" alt="Whatsapp icon" class="icon contact-icon" />
+          <p><a href="https://wa.me/6281523828416 ">Whatsapp</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="footer-container">
+          <img src="/assets/RYAN’Swhite.png" class="logo2" />
+          <ul class="nav-links">
+            <li><a href="#about" class="titlefooter">About</a></li>
+            <li><a href="#experience" class="titlefooter">Experience</a></li>
+            <li><a href="#projects" class="titlefooter">Projects</a></li>
+            <li><a href="#contact" class="titlefooter">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p class="copyrightbawah">Copyright; 2024 Mohamad Rafly Fajriansyah. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
